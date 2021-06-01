@@ -10,7 +10,7 @@ const Form = () => {
         setSubmit(true)
     }
     return (
-        <div>
+        <div className="bg">
             {
                 !submit ? (
                     <FormSignup submitForm={submitForm} />

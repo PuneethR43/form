@@ -1,19 +1,33 @@
+html {
+  background: #dfddc7;
+}
+
 .form {
   font-family: "Open Sans Condensed", arial, sans;
   width: 500px;
   padding: 30px;
-  background: beige;
+  background: #374955;
   margin: 100px auto;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.22);
+}
+
+.form-label {
+  font-weight: 900;
+  color: #ffffff;
 }
 
 .form-inputs p {
-  color: red;
+  color: #f53333;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin: 3px;
 }
 
 .form-input {
   outline: none;
   display: block;
+  color: #d3d8dd;
+  font-weight: 800;
   width: 100%;
   padding: 7px;
   border: none;
@@ -26,14 +40,16 @@
 
 .submit-btn {
   box-shadow: 0px 1px 0px 0px #45d6d6;
-  background-color: #2cbbbb;
+  background-color: #23b4b4;
   border: 1px solid #27a0a0;
   border-radius: 8px;
   /* display: inline-block; */
   cursor: pointer;
   color: #ffffff;
   font-size: 14px;
+  font-weight: bold;
   padding: 8px 18px;
+  margin: 3px;
 }
 
 .submit-btn:hover,
@@ -41,4 +57,10 @@
   background: linear-gradient(to bottom, #34caca 5%, #30c9c9 100%);
   background-color: #34caca;
   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.bottom {
+  /* padding: 3px; */
+  margin-top: 12px;
+  color: #ddd;
 }

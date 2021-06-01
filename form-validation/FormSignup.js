@@ -10,7 +10,7 @@ const FormSignup = ({submitForm}) => {
         <div className="container">
             <form onSubmit={handleSubmit} className="form">
                 <div className="form-inputs">
-                    <label className="form-label">username</label>
+                    <label className="form-label">User-name</label>
                     <input 
                         type="text"
                         name="username"
@@ -22,7 +22,7 @@ const FormSignup = ({submitForm}) => {
                     {errors.username && <p>{errors.username}</p>}
                 </div>
                 <div className="form-inputs">
-                    <label className="form-label">email</label>
+                    <label className="form-label">E-mail</label>
                     <input 
                         type="email"
                         name="email"
@@ -34,7 +34,7 @@ const FormSignup = ({submitForm}) => {
                     {errors.email && <p>{errors.email}</p>}
                 </div>
                 <div className="form-inputs">
-                    <label className="form-label">password</label>
+                    <label className="form-label">Password</label>
                     <input 
                         type="password"
                         name="password"
@@ -46,7 +46,7 @@ const FormSignup = ({submitForm}) => {
                     {errors.password && <p>{errors.password}</p>}
                 </div>
                 <div className="form-inputs">
-                    <label className="form-label">confirm password</label>
+                    <label className="form-label">Confirm Password</label>
                     <input 
                         type="password"
                         name="password2"
@@ -58,9 +58,9 @@ const FormSignup = ({submitForm}) => {
                     {errors.password2 && <p>{errors.password2}</p>}
                 </div>
                 <div>
-                    <button type="submit" className="submit-btn">Sign-up</button>
+                    <button type="submit" className="submit-btn">SIGN-UP</button>
                 </div>
-                <span>Already have an account? Login here</span>
+                <span className="bottom">Already have an account? Login here</span>
             </form>
         </div>
     )
